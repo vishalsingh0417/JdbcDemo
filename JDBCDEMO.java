@@ -41,7 +41,7 @@ public class JDBCDEMO {
 	String sql="delete from persons where PersonID=102";
 	stmt.executeUpdate(sql);
 
-	
+	//Fetching of Data to the console
 	String out="Select * from persons";
 	ResultSet rs=stmt.executeQuery(out);
 	
